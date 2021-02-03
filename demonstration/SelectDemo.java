@@ -23,8 +23,8 @@ public static final String SQL = "select * from user_tbl";
 			while(rs.next())
 			{
 				System.out.println("Id is: " + rs.getInt(1));
-				System.out.println("name is: " + rs.getString(2));
-				System.out.println("password is: " + rs.getString(3));
+				System.out.println("Username is: " + rs.getString(2));
+				System.out.println("Password is: " + rs.getString(3));
 				System.out.println("=====================");
 			}
 			
