@@ -1,11 +1,12 @@
 package jdbc.demonstration;
 
-import java.sql.Connection;
+import java.sql.Connection; 
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class jdbcCreation 
+public class DB_Creation 
 {
 	public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 	public static final String URL = "jdbc:mysql://localhost:3306/";
