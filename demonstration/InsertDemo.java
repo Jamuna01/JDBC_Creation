@@ -24,7 +24,7 @@ public class InsertDemo
 			Statement st = con.createStatement();
 			
 			st.executeUpdate(SQL);
-			System.out.printf("Inserted Data!");
+			System.out.printf("Data Inserted!");
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
